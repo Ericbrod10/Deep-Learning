@@ -5,9 +5,9 @@ This course will cover deep learning and current topics in data science. We will
 
 
 ### Grading Criteria
- - 40% Programming assignments
- - 25% Mid-term 
- - 35% Final exam
+ - 40% Programming Assignments
+ - 25% Mid-Term 
+ - 35% Final Exam
 
 #### Link to Course Materials
 [NJIT Deep Learning Summer 2020](https://web.njit.edu/~usman/courses/cs677_summer20/index.html)
