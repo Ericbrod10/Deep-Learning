@@ -1,7 +1,7 @@
 # Assignment 2 - Cuda - OpenMP
 
 ## Directions
-Convert the CUDA program that you wrote for assignment [one](./Assignment1) into an
+Convert the CUDA program that you wrote for assignment [one](../Assignment1) into an
 OpenMP one. The output of both your CUDA and OpenMP programs must be the same. 
 
 In order to use openmp on Lochness you must type
