@@ -1,0 +1,84 @@
+-------------------------------hillary-------------------------------
+--------------REAL--------------
+Node Size: 300 & Window Size 2: Real News Similar words to hillary: [('mrs', 0.8040564060211182), ('testily', 0.6613476276397705), ('biden', 0.6608988046646118), ('sanders', 0.6351713538169861), ('awed', 0.6232489347457886)] 
+
+Node Size: 300 & Window Size 5: Real News Similar words to hillary: [('mrs', 0.7993810176849365), ('sanders', 0.6389040946960449), ('gusto', 0.6293610334396362), ('misspeaking', 0.6257151365280151), ('consultancies', 0.6123137474060059)] 
+
+Node Size: 1000 & Window Size 2: Real News Similar words to hillary: [('mrs', 0.823054313659668), ('outrunning', 0.6782364845275879), ('steamrolled', 0.6586966514587402), ('misspeaking', 0.6472746133804321), ('chelsea', 0.6338854432106018)] 
+
+Node Size: 1000 & Window Size 5: Real News Similar words to hillary: [('mrs', 0.8015402555465698), ('sanders', 0.6489037275314331), ('reexamination', 0.6142650842666626), ('strenuous', 0.5996578335762024), ('carville', 0.5847616195678711)] 
+
+--------------FAKE--------------
+Node Size: 300 & Window Size 2: Fake News Similar words to hillary: [('bill', 0.8194370269775391), ('mrs', 0.7903972864151001), ('campaign', 0.7801027297973633), ('foundation', 0.7619015574455261), ('herself', 0.7449846267700195)] 
+
+Node Size: 300 & Window Size 5: Fake News Similar words to hillary: [('mrs', 0.7759739756584167), ('protege', 0.7753903865814209), ('campaign', 0.7645777463912964), ('bill', 0.7626566290855408), ('hilary', 0.7298170328140259)] 
+
+Node Size: 1000 & Window Size 2: Fake News Similar words to hillary: [('bill', 0.8003647327423096), ('mrs', 0.7907025218009949), ('campaign', 0.7663904428482056), ('foundation', 0.7636454701423645), ('herself', 0.7457999587059021)] 
+
+Node Size: 1000 & Window Size 5: Fake News Similar words to hillary: [('mrs', 0.7641216516494751), ('swf', 0.7580637335777283), ('campaign', 0.749213457107544), ('bill', 0.7278298735618591), ('herself', 0.7022407650947571)] 
+
+
+
+-------------------------------trump-------------------------------
+--------------REAL--------------
+Node Size: 300 & Window Size 2: Real News Similar words to trump: [('carson', 0.6039417386054993), ('romney', 0.5705037117004395), ('berserker', 0.5612365007400513), ('hillary', 0.5571601986885071), ('rubio', 0.554939866065979)] 
+
+Node Size: 300 & Window Size 5: Real News Similar words to trump: [('deconstruct', 0.6408908367156982), ('metallurgic', 0.5724560022354126), ('businessman', 0.5694854259490967), ('vanukovych', 0.5614522099494934), ('rubio', 0.5519970655441284)] 
+
+Node Size: 1000 & Window Size 2: Real News Similar words to trump: [('rubio', 0.5761629343032837), ('carson', 0.5706372261047363), ('hillary', 0.5629817247390747), ('romney', 0.5599901676177979), ('deconstructs', 0.5328108668327332)] 
+
+Node Size: 1000 & Window Size 5: Real News Similar words to trump: [('hustled', 0.5629249811172485), ('businessman', 0.5616576671600342), ('him', 0.5482845902442932), ('billionaire', 0.546951413154602), ('brashness', 0.5339018106460571)] 
+
+--------------FAKE--------------
+Node Size: 300 & Window Size 2: Fake News Similar words to trump: [('leans', 0.6853636503219604), ('fuhrer', 0.6847596168518066), ('putin', 0.6678523421287537), ('duck', 0.6631131172180176), ('regan', 0.6520699262619019)] 
+
+Node Size: 300 & Window Size 5: Fake News Similar words to trump: [('fuhrer', 0.7813639044761658), ('obj1b6zqdp', 0.7336297035217285), ('leans', 0.6495144367218018), ('farenthold', 0.6248335838317871), ('ducks', 0.6127685308456421)] 
+
+Node Size: 1000 & Window Size 2: Fake News Similar words to trump: [('sanders', 0.7261935472488403), ('leans', 0.7108692526817322), ('fuhrer', 0.7008077502250671), ('regan', 0.6823045015335083), ('farenthold', 0.6625987887382507)] 
+
+Node Size: 1000 & Window Size 5: Fake News Similar words to trump: [('farenthold', 0.6989685297012329), ('rumsfeld', 0.6928422451019287), ('fuhrer', 0.6809526681900024), ('leans', 0.6784274578094482), ('patten', 0.6725442409515381)] 
+
+
+
+-------------------------------obama-------------------------------
+--------------REAL--------------
+Node Size: 300 & Window Size 2: Real News Similar words to obama: [('netanyahu', 0.6551374197006226), ('putin', 0.6250154972076416), ('reagan', 0.5994000434875488), ('romney', 0.5774371027946472), ('biden', 0.5632745027542114)] 
+
+Node Size: 300 & Window Size 5: Real News Similar words to obama: [('raoul', 0.5610612034797668), ('congress', 0.5589507818222046), ('reestablishment', 0.5515591502189636), ('soudani', 0.5183837413787842), ('netanyahu', 0.5084078311920166)] 
+
+Node Size: 1000 & Window Size 2: Real News Similar words to obama: [('netanyahu', 0.6996960639953613), ('putin', 0.6193379163742065), ('reagan', 0.5972050428390503), ('biden', 0.5920543074607849), ('romney', 0.5731775760650635)] 
+
+Node Size: 1000 & Window Size 5: Real News Similar words to obama: [('netanyahu', 0.5401241779327393), ('congress', 0.5266391634941101), ('emmert', 0.5141380429267883), ('vlad', 0.5059968829154968), ('putin', 0.49935007095336914)] 
+
+--------------FAKE--------------
+Node Size: 300 & Window Size 2: Fake News Similar words to obama: [('reagan', 0.7774218320846558), ('bush', 0.7661352157592773), ('putin', 0.6912368535995483), ('nixon', 0.6725953817367554), ('assad', 0.6632728576660156)] 
+
+Node Size: 300 & Window Size 5: Fake News Similar words to obama: [('reagan', 0.7404868602752686), ('bush', 0.7223701477050781), ('nixon', 0.7044910192489624), ('philhellene', 0.6122235059738159), ('neutralization', 0.6085406541824341)] 
+
+Node Size: 1000 & Window Size 2: Fake News Similar words to obama: [('reagan', 0.7892923355102539), ('bush', 0.7716386318206787), ('nixon', 0.7010143995285034), ('obamaâ', 0.6826748847961426), ('bill', 0.6659160852432251)] 
+
+Node Size: 1000 & Window Size 5: Fake News Similar words to obama: [('reagan', 0.7500597238540649), ('bush', 0.7403892874717712), ('nixon', 0.6839306354522705), ('carter', 0.6260471940040588), ('congress', 0.6233786344528198)] 
+
+
+
+-------------------------------immigration-------------------------------
+--------------REAL--------------
+Node Size: 300 & Window Size 2: Real News Similar words to immigration: [('entitlement', 0.7070832252502441), ('abortion', 0.7057216167449951), ('tort', 0.6764150857925415), ('reform', 0.6750702857971191), ('domestic', 0.6525248289108276)] 
+
+Node Size: 300 & Window Size 5: Real News Similar words to immigration: [('reform', 0.7506029605865479), ('comprehensive', 0.7111595273017883), ('abortion', 0.6961972713470459), ('policies', 0.6838003993034363), ('proposals', 0.6674484014511108)] 
+
+Node Size: 1000 & Window Size 2: Real News Similar words to immigration: [('abortion', 0.720651388168335), ('reform', 0.6972908973693848), ('domestic', 0.6733152270317078), ('obamacare', 0.6713154315948486), ('entitlement', 0.6604498624801636)] 
+
+Node Size: 1000 & Window Size 5: Real News Similar words to immigration: [('reform', 0.7416754961013794), ('comprehensive', 0.7221574783325195), ('policies', 0.7179744243621826), ('abortion', 0.7048102617263794), ('obamacare', 0.7044382095336914)] 
+
+--------------FAKE--------------
+Node Size: 300 & Window Size 2: Fake News Similar words to immigration: [('domestic', 0.8442795872688293), ('terrorism', 0.8334537744522095), ('complex', 0.8316329717636108), ('engineering', 0.8296629786491394), ('accountability', 0.8288350105285645)] 
+
+Node Size: 300 & Window Size 5: Fake News Similar words to immigration: [('injustice', 0.8217679262161255), ('sovereignty', 0.8169524073600769), ('warfare', 0.8140406608581543), ('governmental', 0.8131960034370422), ('industrial', 0.8103387355804443)] 
+
+Node Size: 1000 & Window Size 2: Fake News Similar words to immigration: [('complex', 0.8543649315834045), ('banking', 0.8520404100418091), ('accountability', 0.8470444679260254), ('existing', 0.8363903164863586), ('domestic', 0.8308905959129333)] 
+
+Node Size: 1000 & Window Size 5: Fake News Similar words to immigration: [('domestic', 0.8302521705627441), ('sovereignty', 0.8236743807792664), ('regimes', 0.8156241774559021), ('existing', 0.8151499032974243), ('prosperity', 0.8141448497772217)] 
+
+
+

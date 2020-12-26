@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -J dot
+#SBATCH -o dot.out
+#SBATCH -e dot.err
+# Default in slurm
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load intel/19.1.0.166
+
+#The command below is to execute our GPU program
+/usr/bin/time -f %e -o dot_product_time_ /home/e/eab37/Assignment2/dot_openMP data vector 3 3 1 > output

@@ -1,0 +1,9 @@
+.idea
+/venv/
+Assignment10/TrainData/train_image.npy
+Assignment11/models*
+Assignment6/model
+Assignment6/x_*
+Assignment7/Best_Model
+Assignment8/Chest/Best_Model
+Assignment8/Flower/Best_Model

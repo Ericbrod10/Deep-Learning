@@ -1,0 +1,22 @@
+#!/bin/bash -l
+# NOTE the -l (login) flag!
+#
+#SBATCH -J Blackbox.py
+#SBATCH -o Blackbox.out
+#SBATCH -e Blackbox.err
+# Default in slurm
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=20
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load cuda
+module load python
+
+#The command below is to execute our GPU program
+KERAS_BACKEND=tensorflow 
+
+python train.py fake_or_real_news.csv models 
+python test.py fake_or_real_news.csv models query.txt > output.txt

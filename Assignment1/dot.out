@@ -1,0 +1,22 @@
+Starting /home/e/eab37/.bash_profile ... standard AFS bash profile
+
+========================
+Home directory : /home/e/eab37 is not in AFS -- skipping quota check
+========================
+
+On host node429 :
+	 01:57:16 up 8 days,  3:23,  0 users,  load average: 0.05, 0.03, 0.05
+
+=== === === Your Kerberos ticket and AFS token status === === ===
+Kerberos : 
+AFS      : 
+
+Loading default modules ...
+Create file : "/home/e/eab37/.modules" to customize.
+
+
+Currently Loaded Modules:
+  1) cuda/10.2.89
+
+ 
+

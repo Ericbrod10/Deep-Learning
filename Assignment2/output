@@ -1,0 +1,17 @@
+**** Input Values ****
+Rows = 3
+Cols = 3
+Processes = 1 
+
+**** Transfer Data from File to CPU Memory ****
+time to read data = 0.000056
+jobs=3
+thread id= 0, start = 0, stop =3 
+time for kernel=0.000003
+
+**** Output ****
+10.000000 
+6.000000 
+16.000000 
+
+Program Execution Time = 0.000661

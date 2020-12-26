@@ -1,0 +1,29 @@
+#!/bin/bash -l
+# NOTE the -l (login) flag!
+#
+#SBATCH -J dot
+#SBATCH -o dot.out
+#SBATCH -e dot.err
+# Default in slurm
+# #SBATCH --mail-user ucid@njit.edu
+# #SBATCH --mail-type=ALL
+# Request 5 hours run time
+# #SBATCH -t 5:0:0
+# #SBATCH -A 01loss
+# #SBATCH --mem=4000
+#SBATCH -p datasci -n 1
+ 
+module purge > /dev/null 2>&1
+module load cuda
+
+#module load gcc/4.8.1
+#module load python2
+#module load intel/compiler/2017.2.174
+
+#module load intel/19.1.0.166
+
+#module unload python3
+#module load intel/python/intelpython3
+
+#The command below is to execute our GPU program
+/home/e/eab37/AFS_HOME/S20.cs.677.850/Assignment1/dot /home/e/eab37/AFS_HOME/S20.cs.677.850/Assignment1/data /home/e/eab37/AFS_HOME/S20.cs.677.850/Assignment1/vector 3 3 0 8 > output

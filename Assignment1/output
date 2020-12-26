@@ -1,0 +1,9 @@
+Rows = 3, Cols = 3, CUDA_DEVICE = 0, THREADS = 8 
+Time for reading the data 0.000079
+The dot product of the data and weights is 
+
+10.000000 
+6.000000 
+16.000000 
+
+Time it took to run the whole program is 0.110000
