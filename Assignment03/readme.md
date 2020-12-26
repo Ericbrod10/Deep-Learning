@@ -24,7 +24,7 @@ Test your program on the XOR dataset:
 
 ### Additional Assignment Questions
 1. Does your network reach 0 training error? 
- - A. Yes. My my solution shows a zero error.
+ - Yes. My my solution shows a zero error.
 
 2. Can you make your program into stochastic gradient descent (SGD)?
  - It is possible to apply stochastic gradient descent in the program. Stochastic gradient descent is possible contingent on the use of by using subset of data to find the global minima. This solution could be faster than regular gradient descent since the process is applied on a smaller subset requiring less computing power.
